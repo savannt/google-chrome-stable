@@ -20,6 +20,9 @@ RUN apt-get update && apt-get install -y google-chrome-stable
 # Install Xvfb and xdotool
 RUN apt-get install -y xvfb xdotool
 
+# Install x11vnc
+RUN apt-get install -y x11vnc
+
 # Install Python 2.7, NodeJS and npm
 RUN apt-get install -y python2.7 nodejs npm
 
